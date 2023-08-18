@@ -76,7 +76,7 @@ ${data.projectUsage}
 ${data.projectContributions}
 
 
-## Test
+## Tests
 ${data.projectTest}
 
 
