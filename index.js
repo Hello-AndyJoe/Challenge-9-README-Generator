@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Project Test: ",
+        message: "Project Tests: ",
         name: "projectTest",
     },
     {
