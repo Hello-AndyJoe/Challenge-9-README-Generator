@@ -18,7 +18,7 @@ All repositories of code should contain a README to help others know how to inte
 
 
 ## Installation
-[Visual Studio Code](https://code.visualstudio.com/) or a similar program need to be installed.
+[Visual Studio Code](https://code.visualstudio.com/) or a similar program needs to be installed.
 
 Node.js will need to be installed onto the user’s computer. [nodejs.org](https://nodejs.org/en) This link provides the application. It is recommended to use the version 18.17.1 LTS.
 
@@ -26,11 +26,17 @@ GitBash will also need to be installed on the same computer. [git-scm.com](https
 
 Once Node.js and GitBash have been successfully installed on the computer, clone this GitHub repository to a desired folder on the computer.
 
+[The Repository of the README Generator](https://github.com/Hello-AndyJoe/Challenge-9-README-Generator)
+
 The repository does not include the modules from the Inquirer NPM. Install them in the same folder that you have placed the repository by running `npm i inquirer@8.2.4` in a GitBash terminal in Visual Studio Code or similar application. 
 
 
 ## Usage
 Once you've completed the steps outlined in the Installation process of this repository, you can use the README Generator. To start, open in Visual Studio Code the folder that holds this repository that you cloned from the installation process. Run `node index.js` in this folder. This will start a series of prompts in the terminal. Answer the prompts accordingly and it will will display 'Input logged'. This means a README file has been generated in the repository folder. It will be named testREADME.md. The user that can use this file as they please.
+
+[Video Showing the README Generator](https://drive.google.com/file/d/1XJtI-tywZzJOdW_yyIfwJ0tlfXCFF5gw/view?usp=sharing)
+
+![Screenshot of README Generator Prompts Filled](./Assets/readme-generator-screenshot.png)
 
 
 ## Contributions

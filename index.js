@@ -1,9 +1,9 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer");
-const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown");
+const inquirer = require("inquirer"); // Logs inputs from prompts that are shown in the terminal.
+const fs = require("fs"); // Module that allows the code to write the READFILE.md within the computer file system.
+const generateMarkdown = require("./utils/generateMarkdown"); // Functions that builds out the code for the README file. 
 
-// TODO: Create an array of questions for user input
+// The prompts that appear in the terminal.
 const questions = [
     {
         type: "input",
@@ -53,19 +53,19 @@ const questions = [
     }
 ];
 
-// function to write README file
+// Function to write README file.
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log("Input logged.")
     );
 }
 
-// function to initialize program
+// Function to initialize program.
 function init() {
     inquirer.prompt(questions).then((data) => {
         writeToFile("testREADME.md", generateMarkdown(data));
     });
 }
 
-// Function call to initialize app
+// Function call to initialize app.
 init();
